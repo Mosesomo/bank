@@ -5,7 +5,6 @@ import Card from "./components/Card"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Nav from "./components/Nav"
-import People from "./components/People"
 import Stats from "./components/Stats"
 import Stat from "./components/Stat"
 
@@ -19,7 +18,6 @@ const App = () => {
       <Businness />
       <Billing />
       <Card />
-      <People />
       <Stat />
       <Cta />
       <Footer />

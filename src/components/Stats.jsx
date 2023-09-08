@@ -17,11 +17,11 @@ const People = () => {
         </div>
       </div>
       <div className='w-[100%] p-9 lg:flex justify-between items-center'>
-        <div className='w-[100%] p-8 hover:bg-gray-950 cursor-pointer hover:scale-105 duration-300 rounded-lg mb-6'>
+        <div className='w-[100%] p-8 hover:bg-gray-950 cursor-pointer hover:scale-105 duration-300 rounded-lg mb-6 border-[1px] border-gray-600 md:border-none'>
             <img className='mb-5' src={quotes} alt="" />
             <p className='text-gray-400'>Money is only a tool. it will take you anywhere you wish, but it will not replace
             you as the driver.</p>
-            <div className='flex justify-start gap-3 items-center mt-5'>
+            <div className='flex flex-col md:justify-start gap-3 items-center mt-5'>
                 <img   src={people01} alt="" />
                 <div>
                     <h3 className='font-semibold'>Herman Omondi</h3>
@@ -29,11 +29,11 @@ const People = () => {
                 </div>
             </div>
         </div>
-        <div className='w-[100%] p-8 hover:bg-gray-950 cursor-pointer hover:scale-105 duration-300 rounded-lg mb-6'>
+        <div className='w-[100%] p-8 hover:bg-gray-950 cursor-pointer hover:scale-105 duration-300 rounded-lg mb-6 border-[1px] border-gray-600 md:border-none'>
             <img className='mb-5' src={quotes} alt="" />
             <p className='text-gray-400'>Money is only a tool. it will take you anywhere you wish, but it will not replace
             you as the driver.</p>
-            <div className='flex justify-start gap-3 items-center mt-5'>
+            <div className='flex flex-col md:justify-start gap-3 items-center mt-5'>
                 <img  src={people02} alt="" />
                 <div>
                     <h3 className='font-semibold'>Johnstone lile</h3>
@@ -41,11 +41,11 @@ const People = () => {
                 </div>
             </div>
         </div>
-        <div className='w-[100%] p-8 hover:bg-gray-950 cursor-pointer hover:scale-105 duration-300 rounded-lg'>
+        <div className='w-[100%] p-8 hover:bg-gray-950 cursor-pointer hover:scale-105 duration-300 rounded-lg border-[1px] border-gray-600 md:border-none'>
             <img className='mb-5' src={quotes} alt="" />
             <p className='text-gray-400'>Money is only a tool. it will take you anywhere you wish, but it will not replace
             you as the driver.</p>
-            <div className='flex justify-start gap-3 items-center mt-5'>
+            <div className='flex flex-col md:justify-start gap-3 items-center mt-5'>
                 <img  src={people03} alt="" />
                 <div>
                     <h3 className='font-semibold'>Collin Gallegher</h3>
